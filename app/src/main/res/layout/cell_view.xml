@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@+id/top_divider"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#22000000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/cell_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cell_content"
+        android:layout_toEndOf="@id/cell_icon">
+        <TextView
+            android:text="owhfowio"
+            android:id="@+id/cellTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginRight="24dp" android:singleLine="false" android:layout_toLeftOf="@+id/cellValue" android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"/>
+        <TextView
+            android:text="fipjwrogiwhoig"
+            android:id="@+id/cellSubtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginRight="24dp" android:layout_toLeftOf="@+id/cellValue" android:layout_below="@+id/cellTitle" android:layout_alignLeft="@+id/cellTitle" android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"/>
+        <TextView
+            android:text="wfnwthwghl"
+            android:id="@+id/cellValue" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200dp" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"/>
+        <ImageView android:id="@+id/cellChevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:alpha="0.5" app:srcCompat="@drawable/ic_chevron_right_gray_24dp"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/bottom_divider"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@id/cell_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#22000000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CellView">
+        <attr name="showIcon" format="boolean"/>
+        <attr name="showTitle" format="boolean"/>
+        <attr name="showSubtitle" format="boolean"/>
+        <attr name="showChevron" format="boolean"/>
+
+    </declare-styleable>
+
+
+
+
+
+</resources>
